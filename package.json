@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "rebuild": "npm install",
-    "start-dev": "node src/index.js"
+    "start-dev": "node --env-file=.env src/index.js"
   },
   "keywords": [],
   "author": "Vinicyus Marins",
